@@ -10,10 +10,15 @@ print("Welcome to check prime numbers function")
 
 #create a function that checks if a number is prime or not. returns True or False
 def isPrime(toCheck):
-  for num in range(2,toCheck):
-    if toCheck%num==0:
-      return False
-  return True
+  if toCheck==1:
+    return False
+  elif toCheck==2:
+    return True
+  else:
+    for num in range(2,toCheck):
+      if toCheck%num==0:
+        return False
+    return True
 
 while True:
   toCheck=input("What is the number you want to check (or q to quit)? ")
