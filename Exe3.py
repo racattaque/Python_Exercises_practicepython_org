@@ -1,3 +1,5 @@
+__author__ = 'racattaque'
+
 #https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html
 # Take a list, say for example this one:
 
